@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1px;
+    column-gap: 1px;
+    width: 100px;
+    visibility: hidden;
+}
+
+.vis{
+    visibility: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    box-sizing: border-box;
+    border: 2px rgb(147, 147, 236);
+}
+
+.robo{
+    position: relative;
+    top: 15px;
+    left: 30%;
+    border-radius: 2px solid black;
+}
+
+.grid-container{
+    position: relative;
+    top: 15px;
+    left: 30%;
+}
+
+.btn1{
+    position: relative;
+    top: 15px;
+    left: 35%;
+    border-radius: 2px solid black;
+    margin-top: 15px;
+}
+
+
+.result{
+    position: relative;
+    top: 15px;
+    left: 30%;
+    border-radius: 2px solid black;
+    margin-top: 15px;
+    color: rgb(4, 77, 77);
+    font-weight: bolder;
+}
